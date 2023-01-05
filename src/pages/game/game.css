@@ -1,0 +1,77 @@
+.btn-container {
+    display: flex;
+    gap: 2rem;
+}
+.btn-icon {
+    font-size: 5rem;
+}
+
+.container-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.player-selection-container {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.btn-selection {
+    color: #3B5999;
+}
+.user-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+    background-color: transparent;
+    color: #31344b;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    padding: 0.55rem 0.95rem;
+}
+/*======== MEDIA QUERIES (MEDIUM DEVICES) ======== */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+}
+
+/*======== MEDIA QUERIES (SMALL DEVICES) ======== */
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+    .player-selection-container {
+        gap: 1rem;
+    }
+    .user-icon-container {
+        width: 7.5rem;
+        height: 7.5rem;
+        padding: 0.55rem 0.95rem;
+    }
+    .btn-container {
+        gap: 1rem;
+    }
+    .btn-icon {
+        font-size: 4rem;
+    }
+}
